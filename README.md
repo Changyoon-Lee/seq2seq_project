@@ -16,6 +16,20 @@
 
 # 논문리뷰
 
+![1.PNG](https://github.com/Changyoon-Lee/realization_seq2seq/blob/master/image/1.PNG?raw=true)
+
+![2.PNG](https://github.com/Changyoon-Lee/realization_seq2seq/blob/master/image/2.PNG?raw=true)
+
+![3.PNG](https://github.com/Changyoon-Lee/realization_seq2seq/blob/master/image/3.PNG?raw=true)
+
+![4.PNG](https://github.com/Changyoon-Lee/realization_seq2seq/blob/master/image/4.PNG?raw=true)
+
+![5.PNG](https://github.com/Changyoon-Lee/realization_seq2seq/blob/master/image/5.PNG?raw=true)
+
+![6.PNG](https://github.com/Changyoon-Lee/realization_seq2seq/blob/master/image/6.PNG?raw=true)
+
+
+
 # 구현과정
 
 #### 1. data 불러와서 train, val, test set으로 분리
@@ -502,9 +516,19 @@ print('score는 {}'.format(score))
 | vocab_size | 15640          | 25457          |
 | maxlen     | 21             | 19             |
 
-정방향
-
-![image (2)](seq2seq 코드정리.assets/image (2).png)
+![graph.PNG](https://github.com/Changyoon-Lee/realization_seq2seq/blob/master/image/graph.PNG?raw=true)
 
 
+
+### 결론
+
+1. **Initializing** 방식
+
+   두가지 방법(zeros / random uniform)중 **random uniform**이 더 높음
+
+2. input 방식은 **정방향에** **비해 역방향의 성능이 좋음**
+3. 한글 토큰화 방식 **Mecab****이** **Okt****보다 성능이 좋음**
+   - Okt 내에서 전처리 시 성능 향상
+
+4. 영어 토큰화 방식 띄어쓰기 기준으로 한것 보다 **nltk tokenizer 사용**시 성능향상
 
