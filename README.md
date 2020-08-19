@@ -10,7 +10,7 @@
 
 [구현과정](#구현과정)
 
-[결과<br>및<br>결론](#결과<br>및<br>결론)
+[결과 및 결론](#{결과 및 결론})
 
 ---
 
@@ -454,7 +454,7 @@ print('score는 {}'.format(score))
 
 
 
-# 결과<br>및<br>결론
+# 결과 및 결론
 
 > default : mecab/ rand,uniform initail/ 역방향/ epoch:10
 
