@@ -10,9 +10,9 @@
 
 [구현과정](#구현과정)
 
-[결과 및 결론](#결과<br>및<br>결론)
+[결과<br>및<br>결론](#결과<br>및<br>결론)
 
-
+---
 
 
 # 논문리뷰
@@ -504,7 +504,6 @@ print('score는 {}'.format(score))
 
 
 
-----
 
 #### 4. 영문 nltk word_tokenize 이용 
 
@@ -519,7 +518,7 @@ print('score는 {}'.format(score))
 
 ![graph.PNG](https://github.com/Changyoon-Lee/realization_seq2seq/blob/master/image/graph.PNG?raw=true)
 
-
+---
 
 ### 결론
 
